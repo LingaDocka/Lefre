@@ -1,14 +1,18 @@
 name: lefre
-description: A starting point for Dart libraries or applications.
+description: Language-purpose Editing Framework of Reference Book.
 version: 1.0.0
-# repository: https://github.com/my_org/my_repo
+repository: https://github.com/LingaDocka/Lefre
 
 environment:
   sdk: ^3.3.0
 
 # Add regular dependencies here.
 dependencies:
+  buttmd_ext: any
   # path: ^1.8.0
+dependency_overrides:
+  buttmd_ext:
+    git: https://github.com/LingaDocka/ButtMDExtension
 
 dev_dependencies:
   lints: ^3.0.0
